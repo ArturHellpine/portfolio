@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className='mb-20 flex items-center justify-between py-6'>
             <div className='flex flex-shrink-0 items-center'>
                 <a
-                    href='https://drive.google.com/file/d/1DN_5eRQOWZ42yfoMgFGfT2QSQw2YoJLt/view?usp=drive_link'
+                    href='https://drive.google.com/file/d/1p0Q5eLhArShrxIFCP4h7OW7BnIRvbocR/view?usp=drive_link'
                     target='_blank'
                     className='text-2xl font-thin tracking-tight'
                 >
