@@ -10,6 +10,8 @@ import chatImg from '../assets/projects/chat-png.png'
 import chatGif from '../assets/projects/chat-gif.gif'
 import socialImg from '../assets/projects/social-png.png'
 import socialGif from '../assets/projects/social-gif.gif'
+import calendarImg from '../assets/projects/calendar-png.png'
+import calendarGif from '../assets/projects/calendar-gif.gif'
 
 export const HERO_CONTENT =
       `I am a frontend developer with react stack. I have experience working with various frameworks and projects, 
@@ -39,6 +41,16 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Events Calendar",
+    isImageHover: false,
+    image: [calendarImg, calendarGif],
+    description:
+        "Calendar-Events with the functionality of creating, editing, and deleting events.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "React Toast"],
+    githubLink: 'https://github.com/ArturHellpine/events',
+    deployLink: 'https://events-lac.vercel.app/'
+  },
   {
     title: "Master Dispatch",
     isImageHover: false,
